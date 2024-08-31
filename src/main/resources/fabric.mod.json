@@ -13,7 +13,9 @@
 
   "environment": "*",
   "entrypoints": {
-    "client": ["org.minemetero.sussymod.SuusyModClient"],
+    "client": [
+      "org.minemetero.sussymod.SussyModClient"
+    ],
     "main": [
       "org.minemetero.sussymod.SussyMod"
     ]
@@ -21,10 +23,6 @@
 
   "mixins": [
     "sussymod.mixins.json"
-    ,{
-      "config": "sussymod.mixins.json",
-      "environment": "client"
-    }
   ],
 
   "depends": {

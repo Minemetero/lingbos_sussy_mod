@@ -6,6 +6,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+//没啥用的一个文件
 @Mixin(MinecraftServer.class)
 public class SussyModMixin {
     @Inject(at = @At("HEAD"), method = "loadWorld")

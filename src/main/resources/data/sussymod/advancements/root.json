@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "get_something": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "sussymod:textures/block/lingbo_block.png",
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "sussymod:lingbo_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.sussymod.root.title"
+    },
+    "description": {
+      "translate": "advancements.sussymod.root.description"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "sussymod:sussymod/always_gonna_use_this",
+  "criteria": {
+    "eat_coin": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "sussymod:coin"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "sussymod:coin"
+    },
+    "title": {
+      "translate": "advancements.sussymod.power_of_the_coin.title"
+    },
+    "description": {
+      "translate": "advancements.sussymod.power_of_the_coin.description"
+    }
+  }
+}

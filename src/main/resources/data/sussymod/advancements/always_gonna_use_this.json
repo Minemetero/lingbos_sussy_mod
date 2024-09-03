@@ -1,0 +1,28 @@
+{
+  "parent": "sussymod:sussymod/root",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sussymod:like"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "sussymod:like"
+    },
+    "title": {
+      "translate": "advancements.sussymod.always_gonna_use_this.title"
+    },
+    "description": {
+      "translate": "advancements.sussymod.always_gonna_use_this.description"
+    }
+  }
+}

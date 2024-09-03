@@ -1,0 +1,28 @@
+{
+  "parent": "sussymod:sussymod/always_gonna_use_this",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sussymod:dislike"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "sussymod:dislike"
+    },
+    "title": {
+      "translate": "advancements.sussymod.never_gonna_use_this.title"
+    },
+    "description": {
+      "translate": "advancements.sussymod.never_gonna_use_this.description"
+    }
+  }
+}

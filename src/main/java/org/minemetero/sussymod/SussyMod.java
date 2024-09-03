@@ -1,5 +1,6 @@
 package org.minemetero.sussymod;
 
+import org.minemetero.sussymod.blocks.LingboBlock;
 import org.minemetero.sussymod.item.CoinItem;
 import net.fabricmc.api.ModInitializer;
 import org.minemetero.sussymod.item.DislikeItem;
@@ -17,5 +18,6 @@ public class SussyMod implements ModInitializer {
         CoinItem.registerCoinItem();
         LikeItem.registerLikeItem();
         DislikeItem.registerDislikeItem();
+        LingboBlock.registerLingboBlock();
     }
 }

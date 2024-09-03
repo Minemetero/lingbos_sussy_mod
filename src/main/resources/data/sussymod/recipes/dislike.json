@@ -7,12 +7,12 @@
     }
   },
   "pattern": [
-    "#  ",
     "###",
-    "###"
+    "###",
+    "#  "
   ],
   "result": {
     "count": 1,
-    "item": "sussymod:like"
+    "item": "sussymod:dislike"
   }
 }

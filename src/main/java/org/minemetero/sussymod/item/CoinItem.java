@@ -13,19 +13,19 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-//CoinItem的属性
-class CoinFoodComponents{
-    public static final FoodComponent COIN = new FoodComponent.Builder().hunger(3).saturationModifier(0.3f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION,100,1),1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE,600,0),1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,600,0),1.0f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION,400,3),1.0f)
-            .build();
-
-}
-
 //定义主类CoinItem
 public class CoinItem {
+    //CoinItem的属性
+    static class CoinFoodComponents{
+        public static final FoodComponent COIN = new FoodComponent.Builder().hunger(3).saturationModifier(0.3f)
+                .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION,100,1),1.0f)
+                .statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE,600,0),1.0f)
+                .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,600,0),1.0f)
+                .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION,400,3),1.0f)
+                .build();
+
+    }
+
     public static final Item COIN = registerItems("coin",new Item(new FabricItemSettings().food(CoinFoodComponents.COIN)));
 
     private static void addItemsToIG(FabricItemGroupEntries fabricItemGroupEntries){

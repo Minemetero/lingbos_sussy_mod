@@ -40,7 +40,7 @@ public class DislikeItem extends Item {
                 playerName, playerPos, itemStack, isClient);
 
         // 只在客户端执行
-        if (isClient) {
+        if (!isClient) {
             // 获取玩家当前位置前方的位置
             BlockPos spawnPos = playerPos.offset(user.getHorizontalFacing(), 2);
             LOGGER.info("Spawn position for TNT: {}", spawnPos);

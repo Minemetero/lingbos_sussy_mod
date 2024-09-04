@@ -23,6 +23,9 @@ jobs:
           gradle-home-cache-cleanup: true
           dependency-graph: generate-and-submit
 
+      - name: Prepare Gradle wrapper
+        run: chmod +x ./gradlew
+
       - name: build
         run: ./gradlew build
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "sussymod",
-  "version": "0.1.0",
+  "version": "${version}",
 
   "name": "lingbos_sussy_mod",
   "description": "A sussy mod",

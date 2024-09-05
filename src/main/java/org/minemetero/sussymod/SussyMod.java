@@ -15,6 +15,7 @@ public class SussyMod implements ModInitializer {
     @Override
     public void onInitialize() {//注册
         LOGGER.info("Sussy,sussy lingbopro");
+        SussymodItemGroup.registerSussymodItemGroup();
         CoinItem.registerCoinItem();
         LikeItem.registerLikeItem();
         DislikeItem.registerDislikeItem();

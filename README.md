@@ -5,9 +5,10 @@
 ### 简介
 
 这是凌玻做的一个奇妙mod，用于练习Java、Mod制作和视频制作  
-想到啥就做啥，可以在 [B站](https://space.bilibili.com/1886311488) 或者 [GitHub](https://github.com/lingbopro/lingbos-sussy-mod) 提出建议~
+想到啥就做啥，可以在 [B站](https://space.bilibili.com/1886311488) 或者 [GitHub](https://github.com/lingbopro/lingbos-sussy-mod) 提出建议~  
+Fabric项目由Minemetero制作[Github](https://github.com/Minemetero/lingbos_sussy_mod/issues)  
 
-**目前支持的 Minecraft 版本: `Forge 1.20.1`**
+**目前支持的 Minecraft 版本: `Forge 1.20.1``Fabric 1.20.4`**
 
 ### 内容
 
@@ -27,9 +28,10 @@
 
 This is a strange mod created by Lingbo for practicing Java, modding, and video production.  
 Ideas come to mind, so feel free to suggest them on [Bilibili](https://space.bilibili.com/1886311488)
-or [GitHub](https://github.com/lingbopro/lingbos-sussy-mod).
+or [GitHub](https://github.com/lingbopro/lingbos-sussy-mod).  
+For Fabric, it created by Minemetero.[GitHub](https://github.com/Minemetero/lingbos_sussy_mod/issues)  
 
-**Currently supported Minecraft versions: `Forge 1.20.1`**
+**Currently supported Minecraft versions: `Forge 1.20.1``Fabric 1.20.4`**
 
 ### Contents
 

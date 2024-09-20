@@ -16,6 +16,7 @@ Fabric项目由Minemetero制作[Github](https://github.com/Minemetero/lingbos_su
 **目前有以下内容（详细信息见 [Wiki (GitHub 上)](https://github.com/lingbopro/lingbos-sussy-mod/wiki)）:**
 
 1. 可以吃的硬币、点了会炸的不喜欢
+2. 踮石头的附魔
 
 ### 更多
 
@@ -40,6 +41,7 @@ For Fabric, it created by Minemetero.[GitHub](https://github.com/Minemetero/ling
 **Currently, the following features are available (detailed information can be found on [Wiki (GitHub)](https://github.com/lingbopro/lingbos-sussy-mod/wiki)):**
 
 1. Edible coins and unpleasant things that explode when touched
+2. 'Build up blocks' enchantment
 
 ### More
 

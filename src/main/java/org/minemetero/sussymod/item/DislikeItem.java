@@ -3,6 +3,7 @@ package org.minemetero.sussymod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.TntEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -10,14 +11,18 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
 import org.minemetero.sussymod.SussyMod;
 import org.apache.logging.log4j.Logger; // 确保导入的是 Log4j 的 Logger
 import org.apache.logging.log4j.LogManager; // 确保导入 LogManager
+
+import java.util.List;
 
 public class DislikeItem extends Item {
     // 使用 Log4j 的 Logger
@@ -61,6 +66,12 @@ public class DislikeItem extends Item {
 
         // 返回成功的操作结果，并保留当前物品堆叠
         return TypedActionResult.success(itemStack);
+    }
+
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("tooltip.sussymod.dislike"));
+        super.appendTooltip(stack, world, tooltip, context);
     }
 
     public static final Item DISLIKE = registerItems("dislike", new DislikeItem(new FabricItemSettings()));

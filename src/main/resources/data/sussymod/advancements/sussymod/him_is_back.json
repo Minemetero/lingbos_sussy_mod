@@ -1,0 +1,28 @@
+{
+  "parent": "sussymod:sussymod/root",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "sussymod:powerfulstick"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "item": "sussymod:powerfulstick"
+    },
+    "title": {
+      "translate": "advancements.sussymod.him_is_back.title"
+    },
+    "description": {
+      "translate": "advancements.sussymod.him_is_back.description"
+    }
+  }
+}

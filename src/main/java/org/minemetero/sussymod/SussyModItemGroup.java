@@ -10,11 +10,11 @@ import net.minecraft.registry.Registry;
 import net.minecraft.registry.Registries;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-// Import your custom items and blocks
 import org.minemetero.sussymod.blocks.LingboBlock;
 import org.minemetero.sussymod.item.CoinItem;
 import org.minemetero.sussymod.item.DislikeItem;
 import org.minemetero.sussymod.item.LikeItem;
+import org.minemetero.sussymod.item.PowerfulStick;
 
 public class SussyModItemGroup {
     public static final ItemGroup SUSSYMOD_GROUP = Registry.register(
@@ -29,6 +29,7 @@ public class SussyModItemGroup {
                         entries.add(DislikeItem.DISLIKE);
                         entries.add(LikeItem.LIKE);
                         entries.add(LingboBlock.LINGBO_BLOCK);
+                        entries.add(PowerfulStick.POWERFULSTICK);
 
                         // Enchanted book with custom enchantment
                         ItemStack enchantedBook = new ItemStack(Items.ENCHANTED_BOOK);

@@ -5,6 +5,8 @@
   "advancements.sussymod.never_gonna_use_this.title": "Never gonna use this",
   "advancements.sussymod.power_of_the_coin.description": "Look at this, kiddo, the power of the coin is like this! (Chewing sound)",
   "advancements.sussymod.power_of_the_coin.title": "The power of the coin",
+  "advancements.sussymod.him_is_back.title": "'Him' is back!",
+  "advancements.sussymod.him_is_back.description": "I use to own the world~~",
   "advancements.sussymod.root.description": "Some strange things",
   "advancements.sussymod.root.title": "Lingbo's Sussy Mod",
   "advancements.sussymod.very_sussy_block.description": "Strange block...",
@@ -14,6 +16,7 @@
   "item.sussymod.coin": "Coin",
   "item.sussymod.dislike": "Dislike",
   "item.sussymod.like": "Like",
+  "item.sussymod.powerfulstick": "Powerful Stick",
   "itemGroup.lingbos_sussy_mod": "Lingbo's Sussy Mod",
   "text.sussymod.clientHello": "Welcome to Lingbo's Sussy Mod :)",
   "text.sussymod.platform.bilibili": "Bilibili",
@@ -25,5 +28,6 @@
   "text.sussymod.enjoy": "Enjoy :)",
   "tooltip.sussymod.coin": "A coin? Can I... eat it?",
   "tooltip.sussymod.dislike": "Don't even think about clicking this! Really!",
-  "tooltip.sussymod.like": "You're gonna use this, aren't you? Absolutely!"
+  "tooltip.sussymod.like": "You're gonna use this, aren't you? Absolutely!",
+  "tooltip.sussymod.powerfulstick": "Own the world!(submission from stj)"
 }

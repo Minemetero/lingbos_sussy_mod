@@ -5,6 +5,8 @@
   "advancements.sussymod.never_gonna_use_this.title": "永远不要用这个",
   "advancements.sussymod.power_of_the_coin.description": "看好了小子，硬币之力是这样用的！（咀嚼声）",
   "advancements.sussymod.power_of_the_coin.title": "硬币的力量",
+  "advancements.sussymod.him_is_back.title": "'Him' is back!",
+  "advancements.sussymod.him_is_back.description": "I use to own the world~~",
   "advancements.sussymod.root.description": "一些很奇妙的东西",
   "advancements.sussymod.root.title": "凌玻の奇妙Mod",
   "advancements.sussymod.very_sussy_block.description": "奇怪的方块...",
@@ -14,6 +16,7 @@
   "item.sussymod.coin": "硬币",
   "item.sussymod.dislike": "不喜欢",
   "item.sussymod.like": "点赞",
+  "item.sussymod.powerfulstick": "牛X的木棍",
   "itemGroup.lingbos_sussy_mod": "凌玻の奇妙Mod",
   "text.sussymod.clientHello": "欢迎使用凌玻の奇妙Mod :)",
   "text.sussymod.platform.bilibili": "B站",
@@ -25,5 +28,6 @@
   "text.sussymod.enjoy": "Enjoy :)",
   "tooltip.sussymod.coin": "硬币？可以...吃吗？",
   "tooltip.sussymod.dislike": "千万不要点这个！真的！",
-  "tooltip.sussymod.like": "一定一定要给UP这个！！！"
+  "tooltip.sussymod.like": "一定一定要给UP这个！！！",
+  "tooltip.sussymod.powerfulstick": "掌控世界的力量！(来自sjt的投稿)"
 }

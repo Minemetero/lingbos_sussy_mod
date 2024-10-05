@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "I": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "pattern": [
+    "SNS",
+    "NIN",
+    "SBS "
+  ],
+  "result": {
+    "count": 1,
+    "item": "sussymod:powerfulstick"
+  }
+}

@@ -11,6 +11,7 @@ import org.minemetero.sussymod.item.CoinItem;
 import net.fabricmc.api.ModInitializer;
 import org.minemetero.sussymod.item.DislikeItem;
 import org.minemetero.sussymod.item.LikeItem;
+import org.minemetero.sussymod.item.PowerfulStick;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -32,5 +33,6 @@ public class SussyMod implements ModInitializer {
         LikeItem.registerLikeItem();
         DislikeItem.registerDislikeItem();
         LingboBlock.registerLingboBlock();
+        PowerfulStick.registerPowerfulStick();
     }
 }
